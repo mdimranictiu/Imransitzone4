@@ -1,0 +1,144 @@
+.footer{
+    width: 100%;
+    height: auto;
+    background: #231F20;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.footer .footer-section{
+    width: 75%;
+    margin: 10px auto;
+    height: auto;
+    overflow: hidden;
+    border-radius: 10px;
+
+  
+}
+.footer .footer-section .footer-about-compnay{
+    width: 30%;
+    height: auto;
+    margin: 20px 2.5%;
+    float: left;
+
+}
+.footer .footer-section .footer-nav-section{
+    width: 60%;
+    height:auto ;
+    margin: 20px 2.5%;
+    float: left;
+
+
+}
+.bannar{
+    width: 200px;
+    height: 200px;
+    border-radius:50%;
+    margin: 10px auto;
+}
+.bannar img{
+    width: 100%;
+    height: 100%;
+    border-radius:50%;
+}
+.footer-about-compnay p{
+    margin: 10px auto;
+    text-align: justify;
+    justify-content: center;
+    font-size: 18px;
+    color: white;
+}
+.footer-nav-section{
+    position: relative;
+    overflow: hidden;
+}
+.footer-nav-row{
+    width:20%;
+    height: auto;
+    float: left;
+    margin:0 2.5%;
+    margin-top: 220px;
+}
+.footer-nav-row h3{
+    text-align: center;
+    padding-bottom: 10px;
+    color: white;
+}
+.footer-nav-row ul{
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.footer-nav-row ul li{
+    padding: 5px 10px;
+    font-size: 17px;
+   
+}
+.footer-nav-row ul li a{
+    text-decoration: none;
+    color: white;
+}
+@media(max-width:1500px){
+    .footer .footer-section  {
+        width: 90%;
+    }
+}
+@media(max-width:1200px){
+    .footer .footer-section {
+        width: 90%;
+    }
+    .footer .footer-section .footer-about-compnay{
+        width: 70%;
+        margin: 20px 15%;
+        float: left;
+
+    
+    }
+    .footer .footer-section .footer-nav-section{
+        width: 70%;
+        margin: 20px 15%;
+        float: left;
+    }
+    .footer-nav-row{
+        width:40%;
+        float: left;
+        margin:10px 5%;
+    }
+}
+@media(max-width:991px){
+    .footer .footer-section {
+        width: 95%;
+    }
+    .footer .footer-section .footer-about-compnay{
+        width: 80%;
+        margin: 20px 10%;
+        float: left;
+        border-radius: 25px;
+    
+    }
+    .footer .footer-section .footer-nav-section{
+        width: 80%;
+        margin: 20px 10%;
+        float: left;
+    }
+    .footer-nav-row{
+        width:45%;
+        float: left;
+        margin:10px 2.5%;
+    }
+}
+.footer-bottom{
+    height: 10px;
+}
+.footer-bottom hr{
+    width: 75%;
+    background: white;
+    margin: 1rem auto 0;
+    opacity:0.5;
+
+}
+h4{
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    padding: 5px 10px;
+}
