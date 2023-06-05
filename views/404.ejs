@@ -1,0 +1,18 @@
+<%-include('header')-%>
+<h1 style="text-align: center;top:50%;font-size: 50px;color:purple;left: 50%; transform: translate(-50%,-50%);position: absolute;">404 | Error <br>You will be redirecting within <span id="rem"></span> sec</h1>
+<script>
+let time = 5;
+let downloadTimer = setInterval(function(){
+  if(time <= 0){
+    clearInterval(downloadTimer);
+    document.getElementById("rem").innerHTML = 0;
+  } else {
+    document.getElementById("rem").innerHTML = time;
+  }
+  time -= 1;
+}, 1000);
+  setTimeout(() => {
+    window.location="/";
+  }, 6000);
+</script>
+

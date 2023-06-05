@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        <%=title%>
+    </title>
+    <link rel="stylesheet" href="/css/style.css">
+
+</head>
+
+<body>
+    <div id="preloader">
+
+    </div>
+    <div class="nav">
+        <div id="logo" class="logo">
+            <img src="/img/downloadf.png" alt="website logo">
+        </div>
+        <div class="hamburger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+        <ul class="nav-links">
+            <li><a href="/">Home</a></li>
+            <li><a href="<%=aboutUrl%>">About</a></li>
+            <li><a href="<%=serviceUrl%>">Service</a></li>
+            <li><a href="/career">Career</a></li>
+            <li><a href="/contact">Contact</a></li>
+        </ul>
+    </div>
+    <script>
+        let Logo_link = document.getElementById('logo');
+        Logo_link.addEventListener("click",()=>{
+            window.location="/";
+            Logo_link.style.cursor="pointer";
+        });
+        let preLoader= document.getElementById("preloader");
+        window.addEventListener("load",()=>{
+            preLoader.style.display="none";
+        })
+    </script>
+<script src="/js/custom.js"></script>
